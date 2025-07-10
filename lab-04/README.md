@@ -36,8 +36,6 @@ Aprender a gestionar usuarios IAM con distintos niveles de permisos a través de
 
 > 💡 Usa contraseñas seguras y permite que el usuario cambie su contraseña en el primer inicio de sesión.
 
----
-
 ### 2. Crear dos grupos IAM
 
 #### Grupo de administradores
@@ -49,22 +47,16 @@ Aprender a gestionar usuarios IAM con distintos niveles de permisos a través de
 1. Crea otro grupo con nombre: `desarrolladores`
 2. Adjunta una política básica como `AWSLambda_FullAccess`
 
----
-
 ### 3. Asignar usuarios a los grupos
 
 - Asigna `admin` al grupo `administradores`
 - Asigna `miguel` al grupo `desarrolladores`
-
----
 
 ### 4. Validar acceso por consola del usuario admin
 
 1. Inicia sesión con `admin` y su contraseña temporal.
 2. Cambia la contraseña si es requerido.
 3. Explora la consola y verifica que tienes permisos administrativos.
-
----
 
 ### 5. Crear claves programáticas para CLI
 

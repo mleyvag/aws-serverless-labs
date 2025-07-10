@@ -23,8 +23,6 @@ AWS ofrece una **capa gratuita** que permite explorar muchos de sus servicios si
 
 ![01.png](img/01.png)
 
----
-
 ### 2. Registro del correo y nombre de cuenta
 - Ingresa un correo electrónico que no esté asociado a una cuenta AWS.
 - Escribe un nombre para tu cuenta, por ejemplo: `aws-leyva-labs`.
@@ -32,15 +30,11 @@ AWS ofrece una **capa gratuita** que permite explorar muchos de sus servicios si
 
 ![02.png](img/02.png)
 
----
-
 ### 3. Verificación del correo electrónico
 - Introduce el código de verificación que aparece en tu pantalla.
 - Luego, presiona **"Enviar"**.
 
 ![03.png](img/03.png)
-
----
 
 ### 4. Confirmación del código enviado al correo
 - AWS te enviará un email con un código.
@@ -48,23 +42,17 @@ AWS ofrece una **capa gratuita** que permite explorar muchos de sus servicios si
 
 ![04.png](img/04.png)
 
----
-
 ### 5. Configuración de la contraseña
 - Ingresa y confirma una contraseña segura.
 - Haz clic en **"Continuar (paso 1 de 5)"**.
 
 ![05.png](img/05.png)
 
----
-
 ### 6. Información de contacto
 - Completa tus datos personales o de empresa.
 - Acepta los términos y haz clic en **"Aceptar y continuar (paso 2 de 5)"**.
 
 ![06.png](img/06.png)
-
----
 
 ### 7. Información de pago
 - Ingresa una tarjeta de crédito o débito válida.
@@ -75,42 +63,30 @@ AWS ofrece una **capa gratuita** que permite explorar muchos de sus servicios si
 
 ![07.png](img/07.png)
 
----
-
 ### 8. Verificación de identidad por teléfono
 - Ingresa tu número de celular.
 - Selecciona la opción de verificación por SMS.
 
 ![08.png](img/08.png)
 
----
-
 ### 9. Validación de captcha
 
 ![09.png](img/09.png)
-
----
 
 ### 10. Código de verificación por SMS
 - Ingresa el código que recibiste en tu teléfono.
 
 ![10.png](img/10.png)
 
----
-
 ### 11. Selección del plan de soporte
 - Elige la opción **"Soporte básico – Gratis"**.
 
 ![11.png](img/11.png)
 
----
-
 ### 12. ¡Cuenta creada!
 - Haz clic en **"Ir a la consola de administración de AWS"** para comenzar.
 
 ![12.png](img/12.png)
-
----
 
 ### 13. Primer ingreso a la consola
 - Una vez autenticado, verás el **panel principal de la consola** de AWS.

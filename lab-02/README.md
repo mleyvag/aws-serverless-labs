@@ -12,16 +12,12 @@ Familiarizarse con la consola de administración de AWS, explorar las regiones d
 2. Inicia sesión con tus credenciales de AWS (usuario root).
 3. Una vez dentro, explora el **Dashboard de bienvenida**.
 
----
-
 ### 2. Explorar las Regiones de AWS
 1. En la esquina superior derecha, ubica la región actual (por ejemplo, "N. Virginia").
 2. Haz clic sobre ella y se desplegará una lista de todas las regiones disponibles.
 3. Cambia a al menos dos regiones distintas (por ejemplo, "Oregon" y "São Paulo") y observa cómo cambia la disponibilidad de servicios.
 
 > 💡 *Nota:* No todos los servicios están disponibles en todas las regiones.
-
----
 
 ### 3. Buscar Servicios en la Consola
 1. En la barra de búsqueda superior, escribe y selecciona los siguientes servicios clave:
@@ -32,16 +28,12 @@ Familiarizarse con la consola de administración de AWS, explorar las regiones d
 2. Añade cada uno a tu sección de "Favoritos" (haciendo clic en la estrella ⭐️).
 3. Observa los paneles de gestión de cada servicio sin crear recursos aún.
 
----
-
 ### 4. Explorar la Facturación
 1. En la parte superior derecha, haz clic en tu nombre de usuario y selecciona **"Billing Dashboard"** (o **"Panel de facturación"**).
 2. Navega por las siguientes secciones:
    - **Cost Explorer** (Explorador de costos)
    - **Free Tier** (Uso del nivel gratuito)
 3. Verifica cuánto has consumido del Free Tier hasta el momento.
-
----
 
 ### 5. Personalización de la Consola
 

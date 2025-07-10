@@ -34,8 +34,6 @@ Aunque la cuenta AWS Free Tier ofrece servicios sin costo, es recomendable estab
 7. Posteriormente pedirá un código MFA que tendrás que revisar en tu aplicación "Google Authenticator".
 8. Luego de ingresar el código podrás iniciar sesión correctamente.
 
----
-
 ### 2. Crear una alerta de facturación
 
 #### Crear un presupuesto de uso

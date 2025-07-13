@@ -44,9 +44,10 @@ Aprender a crear un **API RESTful tipo Mock** con **Amazon API Gateway** desde l
 ### 3. Crear un método Mock (GET)
 
 1. Selecciona el recurso `/empleados`.
-2. En el desplegable, selecciona `GET`.
-3. En el campo **Integration Type**, selecciona: `Mock`.
-4. Haz clic en **"Create method"**.
+2. Haz clic en **"Create method"**.
+3. En el desplegable, selecciona `GET`.
+4. En el campo **Integration Type**, selecciona: `Mock`.
+5. Haz clic en **"Create method"**.
 
 ---
 
@@ -81,19 +82,36 @@ Aprender a crear un **API RESTful tipo Mock** con **Amazon API Gateway** desde l
 Ejemplo: `https://sfydyety1d.execute-api.us-east-2.amazonaws.com/dev`
 6. Agrega a la URL + `/empleados` y pegalo en un navegador.
 
-`Respuesta:`
+### 6. Crear un método Mock (POST)
 
-```bash
-[{
-  "nombre": "Miguel",
-  "apellido": "Leyva",
-  "numDoc": "12345678",
-  "telefono": "999888777"
-},
+1. En la barra lateral, haz clic en **"Resources"**.
+2. Selecciona el recurso `/empleados`.
+3. Haz clic en **"Create method"**.
+4. En el desplegable, selecciona `POST`.
+5. En el campo **Integration Type**, selecciona: `Mock`.
+6. Haz clic en **"Create method"**.
+
+### 7. Configurar la respuesta de prueba
+
+1. Haz clic en **“Integration Response”**.
+2. En `200`, haz clic en **"Edit"** y agrega en **"Mapping Templates > Template Body"**:
+
+```json
 {
-  "nombre": "Angel",
-  "apellido": "Perez",
-  "numDoc": "12345678",
-  "telefono": "999888777"
-}]
+  {
+   "idEmpleado": 1234
+  },
+  "mensaje": "Se ha registrado tu empleado correctamente",
+  "status": "Creado"
+}
 ```
+3. Finaliza con clic en **"Save"**.
+
+### 8. Despliega el API
+
+1. Haz clic en **"Deploy API"**.
+2. En el desplegable de **"Stage"** elige **"dev"**.
+4. Haz clic en **"Deploy"**
+5. Copia la URL de **"Invoke URL"**.
+Ejemplo: `https://sfydyety1d.execute-api.us-east-2.amazonaws.com/dev`
+6. Agrega a la URL + `/empleados` y pegalo en un Postman de tipo POST.

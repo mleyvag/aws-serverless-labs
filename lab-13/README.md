@@ -49,13 +49,12 @@ Insertar, editar y eliminar items en una tabla DynamoDB utilizando la consola we
 
 ---
 
-### 3. Insertar ítem en modo JSON
+### 3. Insertar ítems en modo JSON
 
 1. Vuelve a hacer clic en **"Crear item"**
 2. Haz clic en el botón **"JSON view"**.
 3. Desactiva el **"View DynamoDB JSON"**.
 4. Pega el siguiente contenido:
-
 ```json
 {
   "categoria": "seguridad",
@@ -66,6 +65,26 @@ Insertar, editar y eliminar items en una tabla DynamoDB utilizando la consola we
 }
 ```
 5. Haz click en **"Create item"**.
+6. Vuelve a realizar los pasos desde el paso 1 hasta el 4 para los siguientes items:
+```json
+{
+  "categoria": "networking",
+  "fechaPublicacion": "2025-01-02",
+  "titulo": "Networking en AWS",
+  "autor": "Miguel Leyva",
+  "etiquetas": ["vpc", "subnets"]
+}
+```
+
+```json
+{
+  "categoria": "base de datos",
+  "fechaPublicacion": "2024-10-03",
+  "titulo": "Base de datos en AWS",
+  "autor": "Miguel Leyva",
+  "etiquetas": ["rds", "dynamodb", "aurora"]
+}
+```
 
 ### 4. Editar un ítem 
 
@@ -75,6 +94,6 @@ Insertar, editar y eliminar items en una tabla DynamoDB utilizando la consola we
 
 ### 5. Eliminar un ítem
 
-1. Seleccionar un item en la casilla ✅
+1. Seleccionar la casilla ✅ del item de **"categoria"** igual a `seguridad`.
 2. Luego hacer clic en **"Actions > Delete items"**.
 3. Confirmar la eliminación en el bóton **"Delete"**.

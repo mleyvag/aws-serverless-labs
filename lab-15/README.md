@@ -8,7 +8,6 @@ Crear una **cola estándar** en Amazon SQS (Simple Queue Service) desde la conso
 
 ## 🧰 Prerrequisitos
 
-- Cuenta activa en AWS
 - Permisos para crear recursos SQS
 
 ---

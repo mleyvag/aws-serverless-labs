@@ -10,7 +10,6 @@ Crear una función Lambda escrita en Node.js que se active automáticamente al r
 
 - Tener una **cola SQS estándar** creada (ver Lab Nº 15)
 - Permisos para crear funciones Lambda e integrar servicios
-- Tener un mensaje pendiente en la cola o enviar uno manualmente
 
 ---
 

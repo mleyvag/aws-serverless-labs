@@ -24,8 +24,6 @@ Aprender a crear un **tópico estándar de Amazon SNS (Simple Notification Servi
 3. Haz clic en **"Topics"** en el panel izquierdo
 4. Haz clic en **"Create topic"**
 
----
-
 ### 2. Crear un tópico estándar
 
 1. Configura el tópico con los siguientes valores:
